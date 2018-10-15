@@ -2,6 +2,12 @@
 
 Either extend as parent
 
+      <parent>
+        <groupId>com.purplepip</groupId>
+        <artifactId>starter</artifactId>
+        <version>1.0.2</version>
+      </parent>
+
 Or import as a BOM
 
       <dependency>
