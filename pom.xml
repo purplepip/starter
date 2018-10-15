@@ -154,6 +154,17 @@
     </plugins>
   </build>
 
+  <distributionManagement>
+    <repository>
+      <id>purplepip-releases</id>
+      <url>packagecloud+https://packagecloud.io/purplepip/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>purplepip-snapshots</id>
+      <url>packagecloud+https://packagecloud.io/purplepip/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <repositories>
     <repository>
       <id>purplepip-releases</id>
