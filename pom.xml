@@ -37,6 +37,7 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <junit.version>5.3.1</junit.version>
+    <logback.version>1.2.3</logback.version>
     <lombok.version>1.18.2</lombok.version>
     <maven.version>3.5</maven.version>
     <slf4j.version>1.7.25</slf4j.version>
@@ -46,6 +47,11 @@
   <!-- Dependency configuration, that can be used by modules -->
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>${logback.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
