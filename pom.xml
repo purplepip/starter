@@ -4,7 +4,7 @@
   <artifactId>starter</artifactId>
   <groupId>com.purplepip</groupId>
   <name>purplepip starter kit</name>
-  <version>1.0.6-SNAPSHOT</version>
+  <version>1.0.6</version>
   <packaging>pom</packaging>
 
   <url>http://purplepip.com</url>
@@ -25,7 +25,7 @@
     <connection>scm:git:git@github.com:purplepip/starter.git</connection>
     <developerConnection>scm:git:git@github.com:purplepip/starter.git</developerConnection>
     <url>git@github.com:purplepip/starter.git</url>
-    <tag>HEAD</tag>
+    <tag>1.0.6</tag>
   </scm>
 
   <properties>
