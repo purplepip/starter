@@ -73,5 +73,6 @@ A project that uses the starter pom will look something like the following :
 </project>
 ```
 
-Although note it may be easier to start with the [archetype](https://github
-.com/purplepip/archetype) and cherry pick, delete what you don't want.
+Although note it may be easier to start with the 
+[archetype](https://github.com/purplepip/archetype)
+and cherry pick, delete what you don't want.
