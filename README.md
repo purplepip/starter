@@ -33,9 +33,9 @@ example pom.xml below.
 
 # Why this Starter?
 
-I tend to use so regularly it's easier for me to bundle what I use together
-to help me bootstrap my projects.   The bootstrap project taps into the
-following *optional* components :
+I tend to use some libraries so regularly it's easier for me to bundle what I 
+use together to help me bootstrap my projects.   This starter project does 
+this for me and taps into the following *optional* components :
 
 * Junit & Mockito - for testing
 * Lombok, SL4J and logback - for logging
