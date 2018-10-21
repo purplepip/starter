@@ -1,6 +1,6 @@
 # Introduction
 
-Bootstrap Java project
+Bootstrap a Java project for rapid development.
 
 # TL;DR
 
