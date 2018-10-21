@@ -31,18 +31,20 @@ It's easiest to create project from the [archetype](https://github.com/purplepip
 which uses this starter project.  If you prefer to go manual then see the 
 example pom.xml below.
 
-
 # Why this Starter?
 
 I tend to use so regularly it's easier for me to bundle what I use together
 to help me bootstrap my projects.   The bootstrap project taps into the
-following *optional* components - cherry pick as you wish :)
+following *optional* components :
 
 * Junit & Mockito - for testing
 * Lombok, SL4J and logback - for logging
 * Spring boot - for service rapid development
 * Jacoco code coverage
 * Auto Java formatting to google style guide
+
+Please feel free to use as is, or just cherry pick and copy what you 
+want :)
 
 # Example pom.xml
 
