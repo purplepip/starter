@@ -160,8 +160,6 @@
           <configuration>
             <argLine>@{jacoco.argLine}</argLine>
             <trimStackTrace>false</trimStackTrace>
-            <parallel>classes</parallel>
-            <threadCount>10</threadCount>
           </configuration>
         </plugin>
         <plugin>
