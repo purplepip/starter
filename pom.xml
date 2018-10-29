@@ -36,6 +36,7 @@
     <java.version>10</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
+    <hamcrest.version>2.0.0.0</hamcrest.version>
     <jacoco.version>0.8.1</jacoco.version>
     <jacoco.covered.ratio>0.80</jacoco.covered.ratio>
     <jacoco.missed.count>0</jacoco.missed.count>
@@ -57,6 +58,11 @@
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
         <version>${logback.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>java-hamcrest</artifactId>
+        <version>${hamcrest.version}</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
