@@ -38,6 +38,7 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
 
     <hamcrest.version>2.0.0.0</hamcrest.version>
+    <jacoco.argLine />
     <jacoco.version>0.8.1</jacoco.version>
     <jacoco.covered.ratio>0.80</jacoco.covered.ratio>
     <jacoco.missed.count>0</jacoco.missed.count>
